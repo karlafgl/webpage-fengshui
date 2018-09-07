@@ -1,0 +1,57 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+#testimonial {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top: 40px;
+}
+
+#titulo {
+  font-family: 'Tangerine', cursive;
+  color: rgb(134, 14, 41);
+}
+
+#yinyang{
+  font-family: 'Tangerine', cursive;
+  color: #A1A005;
+}
+
+#info-one{
+  background: url(../img/gris.png);
+}
+
+#contact {
+  background: url(../img/amarillo.png);
+}
+
+footer {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-family: times;
+}
+
+#footer2 {
+  background: #f1f1f1;
+  text-align: center;
+  font-family: times;
+}
+
+a:link {color:#000;}
+a:visited {color:#000;}
+a:active {color:#000;}
+a:hover {color:#ffffff;}
