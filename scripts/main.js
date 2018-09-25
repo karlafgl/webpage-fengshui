@@ -7,7 +7,7 @@ origin: 'bottom'
 
 sr.reveal('.header-content-left', {
 duration: 2000,
-origin: 'top',
+origin: 'left',
 distance: '300px'
 });
 

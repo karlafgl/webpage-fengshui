@@ -1,5 +1,5 @@
 body {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: sans-serif;
 }
 
 .navbar-brand {
@@ -16,8 +16,20 @@ body {
 }
 
 #titulo {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-weight: bold;
+  font-size: 12rem;
+}
+
+#subtitulo {
   font-family: 'Tangerine', cursive;
-  color: rgb(134, 14, 41);
+  font-size: 3rem;
+}
+
+.subtitulo2{
+  font-family: 'Tangerine', cursive;
+  color: #B84C5D;
 }
 
 #yinyang{
@@ -29,8 +41,10 @@ body {
   background: url(../img/gris.png);
 }
 
-#contact {
+.contact {
   background: url(../img/amarillo.png);
+  width: 100%;
+  height: 100%;
 }
 
 footer {
@@ -51,7 +65,89 @@ li {
   font-family: times;
 }
 
+.fontText {
+  font-family: 'Tangerine', cursive;
+}
+
 a:link {color:#000;}
 a:visited {color:#000;}
 a:active {color:#000;}
 a:hover {color:#ffffff;}
+
+/* CSS FOR ViDEO */
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.content {
+  max-width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header-video video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #303952;
+  z-index: 1;
+  opacity: .50;
+}
+/* si overlay tiene una capa de 1 "z-index: 1;" estara estara encima */
+.header-content {
+  z-index: 2;
+}
+
+.header-content h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  font-family: 'Lobster', cursive;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+
+/* para visualizar el contenido en pantallas mas pequenas  */
+@media (max-width: 960px) {
+  .content {
+    padding: 0 3rem 0 3rem;
+  }
+}
+
+/* ICONS TESTIMONIALS */
+
+.colorStars {
+  color: #DDDA07;
+}
+
+.titleTestimonials {
+  color: #B84C5D;
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+}

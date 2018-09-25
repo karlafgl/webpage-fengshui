@@ -1,0 +1,31 @@
+
+  #wrapper {
+    margin: 0 auto;
+  }
+
+  #banner-wrapper {
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .slider1 {
+    width: 1200px;
+    height: 500px;
+  }
+  .slider img {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  .fontText {
+    font-family: sans-serif;
+  }
+
+  .background {
+    background-color: #FDE8E9;
+  }
